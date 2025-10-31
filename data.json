@@ -1,0 +1,157 @@
+[
+  {
+    "name": "Lions",
+    "description": "Found around Massai Mara, Amboseli, Samburu, Meru National Park and Tsavo. Known for their strategical ways of hunting.",
+    "status": "available"
+  },
+  {
+    "name": "African Elephants",
+    "description": "Found in Amboseli, Tsavo, Mount Elgon, Namunyak and Chyulu Hills. Known for their ways to locate water in dry seasons this is due to their exceptional hearing",
+    "status": "available"
+  },
+  {
+    "name": "Giraffes (Rothschild)",
+    "description": "Found in Massai Mara, Tsavo, Lake Nakuru, Samburu and Nairobi National Park. Known for their long necks and distinctive coat patterns.",
+    "status": "available"
+  },
+  {
+    "name": "Wildbeasts",
+    "description": "Found in Massai Mara, Nairobi National Park, Tsavo and Amboseli. Known for their annual migration in search of fresh grazing lands many tourists travel to Kenya to see this migration.",
+    "status": "available"
+  },
+  {
+    "name": "Flamingos",
+    "description": "Found in Lake Nakuru and Lake Naivasha. Known for their pink color which is derived from their diet of algae and crustaceans.",
+    "status": "available"
+  },
+  {
+    "name": "Black Rhino",
+    "description": "Currently unavailable for public viewing due to their critically endangered status. Found in Lewa Wildlife Conservancy, Ol Pejeta Conservancy and Maasai Mara National Reserve. Known for their solitary nature and strong territorial behavior.",
+    "status": "restricted"
+  },
+  {
+    "name": "African Wild Dog",
+    "description": "Currently unavailable for public viewing due to their endangered status. Found in Tsavo National Park and Laikipia Plateau. Known for their highly social behavior and cooperative hunting strategies.",
+    "status": "restricted"
+  },
+  {
+    "name": "Grevy's Zebra",
+    "description": "Currently unavailable for public viewing due to their endangered status. Found in Samburu and Laikipia regions. Known for their narrow stripes and larger size compared to other zebra species.",
+    "status": "restricted"
+  },
+  {
+    "name": "African Pangolin",
+    "description": "Currently unavailable for public viewing due to their critically endangered status. Found in various forested areas across Kenya. Known for their unique protective keratin scales and nocturnal behavior.",
+    "status": "restricted"
+  },
+  {
+    "name": "Hirola (Hunter's Antelope)",
+    "description": "Currently unavailable for public viewing due to their critically endangered status. Found in the arid regions of northeastern Kenya. Known for their elusive nature and ability to survive in harsh environments.",
+    "status": "restricted"
+  },
+  {
+    "name": "African Civet",
+    "description": "Currently unavailable for public viewing due to their declining population. Found in forested and savannah areas across Kenya. Known for their distinctive black and white markings and nocturnal habits.",
+    "status": "restricted"
+  },
+  {
+    "name": "Cheetah",
+    "description": "Currently unavailable for public viewing due to their vulnerable status. Found in Maasai Mara, Samburu, and Laikipia regions.",
+    "status": "restricted"
+  },
+  {
+    "name": "Leopard",
+    "description": "Currently unavailable for public viewing due to their elusive nature and declining population. Found in various national parks and reserves across Kenya.",
+    "status": "restricted"
+  },
+  {
+    "name": "Hippopotamus",
+    "description": "Found in Lake Naivasha, Lake Victoria and Tana River. Known for their large size and spending most of their time in water to keep cool.",
+    "status": "restricted"
+  },
+  {
+    "name": "Mountain Gorilla",
+    "description": "Currently unavailable for public viewing due to their endangered status. Found in the forests of Bwindi Impenetrable National Park and Mgahinga Gorilla National Park. Known for their gentle nature and strong social bonds within their groups.",
+    "status": "unavailable"
+  },
+  {
+    "name": "Okapi",
+    "description": "Currently unavailable for public viewing due to their elusive nature. Found in dense rainforests of the Congo Basin. Known for their unique appearance, resembling a cross between a giraffe and a zebra.",
+    "status": "unavailable"
+  },
+  {
+    "name": "Aardvark",
+    "description": "Currently unavailable for public viewing due to their nocturnal and solitary behavior. Found in savannahs, grasslands, and woodlands across Africa. Known for their burrowing habits and diet primarily consisting of ants and termites.",
+    "status": "unavailable"
+  },
+  {
+    "name": "Pandas",
+    "description": "Found in China, specifically in the mountainous regions of Sichuan, Shaanxi, and Gansu provinces. Known for their distinctive black and white fur and their diet primarily consisting of bamboo.",
+    "status": "world"
+  },
+  {
+    "name": "Kangaroos",
+    "description": "Found in Australia, particularly in open grasslands, woodlands, and savannahs. Known for their powerful hind legs, large feet, and ability to cover great distances with their hopping movement.",
+    "status": "world"
+  },
+  {
+    "name": "Tigers",
+    "description": "Found in various parts of Asia, including India, Russia, and Southeast Asia. Known for their striking orange coat with black stripes and their status as apex predators in their habitats.",
+    "status": "world"
+  },
+  {
+    "name": "Polar Bears",
+    "description": "Found in the Arctic region, including areas around the North Pole, Canada, Russia, Greenland, and Norway. Known for their thick white fur that provides insulation against the cold and their strong swimming abilities.",
+    "status": "world"
+  },
+  {
+    "name": "Koala",
+    "description": "Native to Australia; spends most of its time sleeping in eucalyptus trees.",
+    "status": "world"
+  },
+  {
+    "name": "Penguin",
+    "description": "Found in the Southern Hemisphere; excellent swimmers and social birds.",
+    "status": "world"
+  },
+  {
+    "name": "Komodo Dragon",
+    "description": "Largest living lizard; native to Indonesia's islands.",
+    "status": "world"
+  },
+  {
+    "name": "Sloth",
+    "description": "Found in Central and South America; known for slow movements and living in trees.",
+    "status": "world"
+  },
+  {
+    "name": "Bald Eagle",
+    "description": "Native to North America; known as the national bird of the United States.",
+    "status": "world"
+  },
+  {
+    "name": "Dolphin",
+    "description": "Found in warm oceans worldwide; intelligent, social, and known for acrobatic jumps.",
+    "status": "world"
+  },
+  {
+    "name": "Blue Whale",
+    "description": "The largest animal on Earth; migrates across the world’s oceans.",
+    "status": "world"
+  },
+  {
+    "name": "Great White Shark",
+    "description": "Top ocean predator found in coastal waters across the globe.",
+    "status": "world"
+  },
+  {
+    "name": "Sea Turtle",
+    "description": "Ancient marine reptile found in tropical and subtropical seas; migrates long distances.",
+    "status": "world"
+  },
+  {
+    "name": "Orca (Killer Whale)",
+    "description": "Highly intelligent marine mammals known for their black-and-white coloring and teamwork.",
+    "status": "world"
+  }
+]

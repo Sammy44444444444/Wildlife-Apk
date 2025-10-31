@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wildlife Authorities</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>WILDLIFE AUTHORITIES</h1>
+      <img src="wild.webp" alt="web-photo">
+      <button id="theme-toggle">🌙 Dark Mode</button>
+      <div class="filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="available">Available</button>
+        <button class="filter-btn" data-filter="restricted">Restricted</button>
+        <button class="filter-btn" data-filter="unavailable">Unavailable</button>
+        <button class="filter-btn" data-filter="world">World</button>
+      </div>
+
+      <input type="text" class="search" placeholder="Search animals...">
+      <p id="no-results">
+  No animals found.
+</p>
+
+<p>This application helps annalyse the type of animals found in Kenya for more information please contact
+   <a href="https://www.kws.go.ke/">Kenya Wildlife Service</a>.</p>
+   <p>NOTE THIS ARE SOME OF THE FEW ANIMALS THAT CAUGHT MY EYE.</p>
+    </header>
+
+    <main class="animal-grid">
+
+      <div class="animal-card available">
+        <h3>Lions</h3>
+        <p>Found around Massai Mara, Amboseli, Samburu, Meru National Park and Tsavo</p>
+        <p>Known for their strategical ways of hunting.</p>
+        <div class="status">
+          <div class="wifi-signal on"></div>
+          <span class="status-text">Available</span>
+        </div>
+      </div>
+
+      <div class="animal-card available">
+        <h3>African Elephants</h3>
+        <p>Found in Amboseli, Tsavo, Mount Elgon, Namunyak and Chyulu Hills</p>
+        <p>Known for their ways to locate water in dry seasons this is due to their exceptional hearing</p>
+        <div class="status">
+          <div class="wifi-signal on"></div>
+          <span class="status-text">Available</span>
+        </div>
+      </div>
+
+      <div class="animal-card available">
+        <h3>Giraffes (Rothschild)</h3>
+        <p>Found in Massai Mara, Tsavo, Lake Nakuru, Samburu and Nairobi National Park</p>
+        <p>Known for their long necks and distinctive coat patterns.</p>
+        <div class="status">
+          <div class="wifi-signal on"></div>
+          <span class="status-text">Available</span>
+        </div>
+      </div>
+
+      <div class="animal-card available">
+        <h3>Wildbeasts</h3>
+        <p>Found in Massai Mara, Nairobi National Park, Tsavo and Amboseli</p>
+        <p>Known for their annual migration in search of fresh grazing lands many tourists travel to Kenya to see this migration.</p>
+        <div class="status">
+          <div class="wifi-signal on"></div>
+          <span class="status-text">Available</span>
+        </div>
+      </div>
+
+      <div class="animal-card available">
+        <h3>Flamingos</h3>
+        <p>Found in Lake Nakuru and Lake Naivasha</p>
+        <p>Known for their pink color which is derived from their diet of algae and crustaceans.</p>
+        <div class="status">
+          <div class="wifi-signal on"></div>
+          <span class="status-text">Available</span>
+        </div>
+      </div>
+
+      <div class="animal-card restricted">
+        <h3>Black Rhino</h3>
+        <p>Currently unavailable for public viewing due to their critically endangered status. Found in Lewa Wildlife Conservancy, Ol Pejeta Conservancy and Maasai Mara National Reserve.</p>
+        <p>Known for their solitary nature and strong territorial behavior.</p>
+        <div class="status">
+          <div class="wifi-signal off"></div>
+          <span class="status-text">Restricted</span>
+        </div>
+      </div>
+
+      <div class="animal-card restricted">
+        <h3>African Wild Dog</h3>
+        <p>Currently unavailable for public viewing due to their endangered status. Found in Tsavo National Park and Laikipia Plateau.</p>
+        <p>Known for their highly social behavior and cooperative hunting strategies.</p>
+        <div class="status">
+          <div class="wifi-signal off"></div>
+          <span class="status-text">Restricted</span>
+        </div>
+      </div>
+
+      <div class="animal-card restricted">
+        <h3>Grevy's Zebra</h3>
+        <p>Currently unavailable for public viewing due to their endangered status. Found in Samburu and Laikipia regions.</p>
+        <p>Known for their narrow stripes and larger size compared to other zebra species.</p>
+        <div class="status">
+          <div class="wifi-signal off"></div>
+          <span class="status-text">Restricted</span>
+        </div>
+      </div>
+
+      <div class="animal-card restricted">
+        <h3>African Pangolin</h3>
+        <p>Currently unavailable for public viewing due to their critically endangered status. Found in various forested areas across Kenya.</p>
+        <p>Known for their unique protective keratin scales and nocturnal behavior.</p>
+        <div class="status">
+          <div class="wifi-signal off"></div>
+          <span class="status-text">Restricted</span>
+        </div>
+      </div>
+
+      <div class="animal-card restricted">
+        <h3>Hirola (Hunter's Antelope)</h3>
+        <p>Currently unavailable for public viewing due to their critically endangered status. Found in the arid regions of northeastern Kenya.</p>
+        <p>Known for their elusive nature and ability to survive in harsh environments.</p>
+        <div class="status">
+          <div class="wifi-signal off"></div>
+          <span class="status-text">Restricted</span>
+        </div>
+      </div>
+
+      <div class="animal-card restricted">
+        <h3>African Civet</h3>
+        <p>Currently unavailable for public viewing due to their declining population. Found in forested and savannah areas across Kenya.</p>
+        <p>Known for their distinctive black and white markings and nocturnal habits.</p>
+        <div class="status">
+          <div class="wifi-signal off"></div>
+          <span class="status-text">Restricted</span>
+        </div>
+      </div>
+
+      <div class="animal-card restricted">
+        <h3>Cheetah</h3>
+        <p>Currently unavailable for public viewing due to their vulnerable status. Found in Maasai Mara, Samburu, and Laikipia regions.</p>
+        <div class="status">
+          <div class="wifi-signal off"></div>
+          <span class="status-text">Restricted</span>
+        </div>
+      </div>
+
+      <div class="animal-card restricted">
+        <h3>Leopard</h3>
+        <p>Currently unavailable for public viewing due to their elusive nature and declining population. Found in various national parks and reserves across Kenya.</p>
+        <div class="status">
+          <div class="wifi-signal off"></div>
+          <span class="status-text">Restricted</span>
+        </div>
+      </div>
+
+      <div class="animal-card restricted">
+        <h3>Hippopotamus</h3>
+        <p>Found in Lake Naivasha, Lake Victoria and Tana River</p>
+        <p>Known for their large size and spending most of their time in water to keep cool.</p>
+        <div class="status">
+          <div class="wifi-signal off"></div>
+          <span class="status-text">Restricted</span>
+        </div>
+      </div>
+
+      <div class="animal-card unavailable">
+        <h3>Mountain Gorilla</h3>
+        <p>Currently unavailable for public viewing due to their endangered status. Found in the forests of Bwindi Impenetrable National Park and Mgahinga Gorilla National Park.</p>
+        <p>Known for their gentle nature and strong social bonds within their groups.</p>
+        <div class="status">
+          <div class="wifi-signal weak"></div>
+          <span class="status-text">Unavailable</span>
+        </div>
+      </div>
+
+      <div class="animal-card unavailable">
+        <h3>Okapi</h3>
+        <p>Currently unavailable for public viewing due to their elusive nature. Found in dense rainforests of the Congo Basin.</p>
+        <p>Known for their unique appearance, resembling a cross between a giraffe and a zebra.</p>
+        <div class="status">
+          <div class="wifi-signal weak"></div>
+          <span class="status-text">Unavailable</span>
+        </div>
+      </div>
+
+      <div class="animal-card unavailable">
+        <h3>Aardvark</h3>
+        <p>Currently unavailable for public viewing due to their nocturnal and solitary behavior. Found in savannahs, grasslands, and woodlands across Africa.</p>
+        <p>Known for their burrowing habits and diet primarily consisting of ants and termites.</p>
+        <div class="status">
+          <div class="wifi-signal weak"></div>
+          <span class="status-text">Unavailable</span>
+        </div>
+      </div>
+
+      <div class="animal-card world">
+        <h3>Pandas</h3>
+        <p>Found in China, specifically in the mountainous regions of Sichuan, Shaanxi, and Gansu provinces.</p>
+        <p>Known for their distinctive black and white fur and their diet primarily consisting of bamboo.</p>
+        <div class="status">
+          <div class="wifi-signal on"></div>
+          <span class="status-text">Available</span>
+        </div>
+      </div>
+
+      <div class="animal-card world">
+        <h3>Kangaroos</h3>
+        <p>Found in Australia, particularly in open grasslands, woodlands, and savannahs.</p>
+        <p>Known for their powerful hind legs, large feet, and ability to cover great distances with their hopping movement.</p>
+        <div class="status">
+          <div class="wifi-signal on"></div>
+          <span class="status-text">Available</span>
+        </div>
+      </div>
+
+      <div class="animal-card world">
+        <h3>Tigers</h3>
+        <p>Found in various parts of Asia, including India, Russia, and Southeast Asia.</p>
+        <p>Known for their striking orange coat with black stripes and their status as apex predators in their habitats.</p>
+        <div class="status">
+          <div class="wifi-signal on"></div>
+          <span class="status-text">Available</span>
+        </div>
+      </div>
+
+      <div class="animal-card world">
+        <h3>Polar Bears</h3>
+        <p>Found in the Arctic region, including areas around the North Pole, Canada, Russia, Greenland, and Norway.</p>
+        <p>Known for their thick white fur that provides insulation against the cold and their strong swimming abilities.</p>
+        <div class="status">
+          <div class="wifi-signal on"></div>
+          <span class="status-text">Available</span>
+        </div>
+      </div>
+
+      <div class="animal-card world">
+        <h3>Koala</h3>
+        <p>Native to Australia; spends most of its time sleeping in eucalyptus trees.</p>
+        <div class="status">
+          <div class="wifi-signal on"></div>
+          <span class="status-text">World</span>
+        </div>
+      </div>
+
+      <div class="animal-card world">
+        <h3>Penguin</h3>
+        <p>Found in the Southern Hemisphere; excellent swimmers and social birds.</p>
+        <div class="status">
+          <div class="wifi-signal weak"></div>
+          <span class="status-text">World</span>
+        </div>
+      </div>
+
+      <div class="animal-card world">
+        <h3>Komodo Dragon</h3>
+        <p>Largest living lizard; native to Indonesia's islands.</p>
+        <div class="status">
+          <div class="wifi-signal off"></div>
+          <span class="status-text">World</span>
+        </div>
+      </div>
+
+      <div class="animal-card world">
+        <h3>Sloth</h3>
+        <p>Found in Central and South America; known for slow movements and living in trees.</p>
+        <div class="status">
+          <div class="wifi-signal weak"></div>
+          <span class="status-text">World</span>
+        </div>
+      </div>
+
+      <div class="animal-card world">
+        <h3>Bald Eagle</h3>
+        <p>Native to North America; known as the national bird of the United States.</p>
+        <div class="status">
+          <div class="wifi-signal on"></div>
+          <span class="status-text">World</span>
+        </div>
+      </div>
+
+      <div class="animal-card world">
+        <h3>Dolphin</h3>
+        <p>Found in warm oceans worldwide; intelligent, social, and known for acrobatic jumps.</p>
+        <div class="status">
+          <div class="wifi-signal on"></div>
+          <span class="status-text">World</span>
+        </div>
+      </div>
+
+      <div class="animal-card world">
+        <h3>Blue Whale</h3>
+        <p>The largest animal on Earth; migrates across the world’s oceans.</p>
+        <div class="status">
+          <div class="wifi-signal weak"></div>
+          <span class="status-text">World</span>
+        </div>
+      </div>
+
+      <div class="animal-card world">
+        <h3>Great White Shark</h3>
+        <p>Top ocean predator found in coastal waters across the globe.</p>
+        <div class="status">
+          <div class="wifi-signal off"></div>
+          <span class="status-text">World</span>
+        </div>
+      </div>
+
+      <div class="animal-card world">
+        <h3>Sea Turtle</h3>
+        <p>Ancient marine reptile found in tropical and subtropical seas; migrates long distances.</p>
+        <div class="status">
+          <div class="wifi-signal on"></div>
+          <span class="status-text">World</span>
+        </div>
+      </div>
+
+      <div class="animal-card world">
+        <h3>Orca (Killer Whale)</h3>
+        <p>Highly intelligent marine mammals known for their black-and-white coloring and teamwork.</p>
+        <div class="status">
+          <div class="wifi-signal weak"></div>
+          <span class="status-text">World</span>
+        </div>
+      </div>
+
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2025 Extension Manager. All rights reserved.</p>
+        <p>
+          Built by <a href="https://github.com/Sammy44444444444" target="_blank">Samuel Ng'ang'a</a>
+        </p>
+        <nav class="footer-links">
+          <a href="https://github.com/Sammy44444444444" target="_blank">About</a>
+          <a href="mailto:sammyngash109@gmail.com">Contact</a>
+          <a href="https://github.com/Sammy44444444444/Wildlife-Apk/blob/main/README.md" target="_blank">Documentation</a>
+        </nav>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
