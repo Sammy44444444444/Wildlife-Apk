@@ -51,3 +51,35 @@ Follow these steps to run the project locally:
 
    ```bash
    git clone https://github.com/Sammy44444444444/Wildlife-Apk.git
+
+   Usage
+
+Open index.html to see wildlife content
+
+Add or modify entries in data.json to update the displayed wildlife information
+
+Technologies
+
+HTML5
+
+CSS3
+
+JavaScript
+
+JSON
+
+GitHub Pages
+
+This project is deployed on GitHub Pages:
+https://sammy44444444444.github.io/Wildlife-Apk/
+
+To update the site:
+
+git add .
+git commit -m "Update website content"
+git push origin gh-pages
+
+
+Enjoy exploring wildlife and learning web development!
+
+
